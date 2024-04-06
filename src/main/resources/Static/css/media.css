@@ -1,0 +1,166 @@
+@media (max-width: 991px) {
+    .menu-items {
+        margin-left: 0;
+    }
+
+    .header-form {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-button {
+        width: 100%;
+    }
+
+    .header-login {
+        width: 100%;
+        text-align: center;
+        margin-top: 16px;
+    }
+
+    /*HEADER END*/
+    /*GROW*/
+    .grow-column {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .grow-title {
+        margin-top: 40px;
+    }
+
+    /*GROW END*/
+    /*COMMERCIAL*/
+    .commercial {
+        margin-top: 450px;
+    }
+
+    /*COMMERCIAL END*/
+    .with-qubit {
+        margin-top: 64px;
+    }
+
+    /*ALL POWER*/
+    .power-img {
+        width: 100%;
+    }
+
+    /*INDUSTRY*/
+    .industry-content {
+        width: 100%;
+    }
+
+    /*INDUSTRY END*/
+    /*ECOSYSTEM*/
+    .ecosystem-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ecosystem-connect {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .ecosystem-connect .col {
+        width: 100%;
+    }
+
+    .connect-title {
+        font-size: 25px;
+    }
+
+
+    /*ECOSYSTEM END*/
+    /*DEMO*/
+    .demo-form{
+        width: 80%;
+    }
+    /*DEMO END*/
+    /*FOOTER*/
+    .footer-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*FOOTER END*/
+}
+
+@media (max-width: 768px) {
+    .footer-items {
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .ecosystem-connect{
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    /*HEADER*/
+    /*HEADER END*/
+    /* HERO*/
+    .hero-content {
+        top: 220px;
+        width: 95%;
+        text-align: center;
+    }
+
+    .hero-title {
+        font-size: 40px;
+    }
+
+    /* HERO END*/
+    /*GROW*/
+    .grow-column {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .grow-title {
+        margin-top: 40px;
+    }
+
+    /*GROW END*/
+    /*COMMERCIAL*/
+    .commercial {
+        margin-top: 500px;
+    }
+
+    /*COMMERCIAL END*/
+    .with-qubit {
+        margin-top: 64px;
+    }
+    .grow-title{
+        font-size: 25px;
+    }
+
+    /*ALL POWER*/
+    .power-button {
+        margin-left: 0;
+    }
+
+    /*INDUSTRY*/
+    .industry-title {
+        font-size: 25px;
+    }
+
+    /*INDUSTRY END*/
+    /*FOOTER*/
+    .footer-items {
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    /*FOOTER END*/
+}
